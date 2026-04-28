@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="US17P4_12_tableDataFormatValidation">
+	<test name="US17P4_12_tests">
+		 <classes>
+		 	<class name="com.ankush.InsurEdge.testng.sprint1_us12.US17P4_12_tableDataFormatValidation"/>
+		 </classes>
+	</test>
+</suite>

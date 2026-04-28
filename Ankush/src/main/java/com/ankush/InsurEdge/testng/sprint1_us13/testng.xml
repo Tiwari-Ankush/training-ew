@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="US17P4_13_ApproveButtonAction">
+	<test name="US17P4_13_tests">
+		 <classes>
+		 	<class name="com.ankush.InsurEdge.testng.sprint1_us13.US17P4_13_ApproveButtonAction"/>
+		 </classes>
+	</test>
+</suite>

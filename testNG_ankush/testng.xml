@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  <suite name="Suite">-->
+<suite name="Suite"  Thread-count="2">
+  <test name="edgetest" parallel="classes" >
+  	
+  	<!--></!>
+  	<groups>
+  		<run>
+  			<include name="regression"></include>
+  		</run>
+  	</groups>
+  	<!-->
+  	<parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="testng_practice.tutorialsNinjaSite_parallel"/>
+      <class name="testng_practice.tutorialsNinjaSite_2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <!-- 
+  <test name="chrometest" parallel="classes">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="testng_practice.tutorialsNinjaSite_parallel"/>
+    </classes>
+  </test>
+   -->
+  <!--
+  <test name="firefoxtest">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="testng_practice.tutorialsNinjaSite_parallel"/>
+    </classes>
+  </test>
+    -->
+  
+  
+</suite> <!-- Suite -->

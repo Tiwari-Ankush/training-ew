@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+
+<listeners>
+	<!-- <listener class-name="testng_practice.MyListener"/> -->
+	<listener class-name="testng_practice.ExtentReportManager"/>
+</listeners>
+  <test thread-count="5" browser="chrome" name="Test">
+    <classes>
+      <class name="testng_practice.tutorialsNinja_listenersReport"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

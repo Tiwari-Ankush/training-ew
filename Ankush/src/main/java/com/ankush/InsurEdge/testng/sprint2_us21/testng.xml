@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="US17P4_21_FilterPopulationLogic">
+	<test name="US17P4_21_tests">
+		 <classes>
+		 	<class name="com.ankush.InsurEdge.testng.sprint2_us21.US17P4_21_filterPopulationLogic"/>
+		 </classes>
+	</test>
+</suite>

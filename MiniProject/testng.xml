@@ -1,0 +1,17 @@
+
+<suite name="Rediff Suite" verbose="1" parallel="false">
+    <!-- Fixed values so IDE/TestNG launcher does not require variables -->
+    <parameter name="browser" value="chrome"/>
+    <parameter name="headless" value="false"/>
+
+    <!-- Register Extent listener (inside your BaseTest) -->
+    <listeners>
+        <listener class-name="miniProject.base.BaseTest"/>
+    </listeners>
+
+    <test name="Registration Flow">
+        <classes>
+            <class name="miniProject.RegistrationFlowTest"/>
+        </classes>
+    </test>
+</suite>

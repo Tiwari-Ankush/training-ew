@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.ankush.InsurEdge.testng.us21.US17P4_21_filterPopulationLogic"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
