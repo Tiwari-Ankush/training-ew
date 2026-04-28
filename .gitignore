@@ -1,17 +1,47 @@
+# ==========================================
+# Eclipse Specific (The 350MB Culprits)
+# ==========================================
+.metadata/
+RemoteSystemsTempFiles/
+Servers/
+.settings/
+.classpath
+.project
+
+# ==========================================
+# IntelliJ IDEA Specific
+# ==========================================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ==========================================
+# Build Tools (Maven / Gradle)
+# ==========================================
 target/
+build/
+.gradle/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
 pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-# https://maven.apache.org/tools/wrapper/#Usage_with_or_without_Binary_JAR
-.mvn/wrapper/maven-wrapper.jar
 
-# Eclipse m2e generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
+# ==========================================
+# Compiled Source
+# ==========================================
+*.class
+*.jar
+*.war
+*.ear
+
+# ==========================================
+# Selenium, Cucumber, & TestNG Outputs
+# ==========================================
+test-output/
+target/cucumber-reports/
+target/surefire-reports/
+*.log
+logs/
+Screenshots/
+reports/
